@@ -1,0 +1,40 @@
+.left_chat {
+     margin: 0.5rem;
+     border: 1px solid rgb(160, 149, 149);
+     padding: 0.5rem;
+     background-color: rgb(255, 252, 252);
+     box-shadow: 2px 2px 4px rgba(102, 97, 97, 0.2);
+     border-radius: 0.5rem;
+     display: flex;
+     flex-direction: column;
+     max-width: 20rem;
+
+}
+
+.left_chat h5 {
+     color: rgb(17, 17, 179);
+     margin-bottom: 0.5rem;
+}
+
+.user_msg {
+     font-size: 1rem;
+     max-width: 60rem;
+     font-weight: 600;
+     color:black ;
+}
+
+.left_chat p {
+     color: grey;
+     margin-top: 0.5rem;
+
+}
+
+.tick{
+     display: flex;
+     justify-content: flex-end;
+     font-size: 1.5rem;
+     color: blue;
+}
+
+
+

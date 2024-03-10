@@ -1,0 +1,48 @@
+.container{
+     display: grid;
+     grid-template-columns: 1fr 1.5fr 1fr;
+     height: 92.3vh;
+}
+
+.red{
+     max-height: 60rem;
+     overflow: auto;
+     scroll-behavior: smooth;
+
+}
+
+.green{
+     background-color: green;
+}
+
+.grey{
+     background-color: black;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+
+/* for tabs */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+     /* Styles for tablets */
+    .container{
+     grid-template-columns: 1fr 1fr 1fr;
+     height:95vh;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+     /* Styles for mobile devices */
+     .container {
+               grid-template-columns: 1fr 1.5fr;
+               height: 94vh;
+          }
+
+     .grey{
+          display: none;
+     }
+}

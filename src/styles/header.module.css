@@ -1,0 +1,43 @@
+.nav{
+     display: flex;
+     background-color: rgb(197, 86, 86);
+     justify-content: space-between;
+     padding: 1rem 1rem;
+     color:white;
+}
+
+
+
+.nav ul {
+     display: flex;
+}
+
+.nav ul li{
+     padding: 0 1rem;
+     list-style: none;
+     cursor: pointer;
+     font-size: 2rem
+}
+
+.nav ul li span{
+     position: relative;
+     right:1rem;
+     color: black;
+}
+
+.notification{
+     color:rgb(56, 5, 85);
+
+}
+
+
+@media only screen and (max-width: 767px) {
+
+     /* Styles for mobile devices */
+     .nav ul li{
+          font-size: 1rem
+     }
+}
+
+
+

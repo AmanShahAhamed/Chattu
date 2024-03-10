@@ -1,0 +1,60 @@
+.form {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 2rem;
+}
+
+.form form input{
+     border-top: none;
+     border-left: none;
+     border-right: none;
+     height: 1.8rem;
+     margin: 0.5rem;
+     width: 50vh;
+     display: flex;
+     outline: none;
+     padding: 5px;
+}
+
+.form form label{
+     font-weight: 700;
+}
+
+.form .btn{
+     height: 3rem;
+     background-color: red;
+     border: none;
+     padding: 1rem;
+     border-radius: 0.5rem;
+     font-weight: 600;
+     color:white;
+     cursor: pointer;
+}
+
+.btn:hover{
+     background-color: rgb(221, 9, 9);
+}
+
+.form .text_btn{
+     border: none;
+     background-color: transparent;
+     cursor: pointer;
+     color: red;
+     transition: transform 0.3s ease;
+     margin-left: 10px;
+     margin: 10px;
+}
+.text_btn:hover{
+     /* font-size: rem; */
+     transform: scale(1.2);
+}
+
+
+.center_div{
+display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+}

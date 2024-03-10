@@ -1,0 +1,112 @@
+.navbar{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 2rem;
+     border-bottom: 1px solid black;
+     height: 5rem;
+     padding: 1rem;
+     position: static;
+     background-color: aquamarine;
+}
+
+.navbar div{
+     display: flex;
+     flex-direction: column;
+}
+
+.navbar h3{
+     font-size: 2rem;
+}
+
+.navbar h5{
+     color: grey;
+}
+.content{
+     background-color: rgb(160, 180, 160);
+     height: 45rem;
+     position: fixed;
+     overflow-y: auto;
+     width: 42.8%;
+     display: flex;
+     flex-direction: column;
+}
+
+.send_msg{
+     display: flex;
+     justify-content: center;
+     margin-bottom: 10px;
+     position: absolute;
+     bottom: 0;
+     width: 44%;
+}    
+
+
+.send_msg input{
+     background-color: rgb(248, 246, 246);
+     border: none;
+     outline: none;
+     height: 2.7rem;
+     margin-right: 10px;
+     padding: 1rem;
+     width: 80%;
+}
+
+.icon_left{
+     font-size: 1.5rem;
+     margin: 10px;
+     position: relative;
+}
+.btn{
+     background-color: blanchedalmond;
+     padding: 0.8rem;
+     border-radius: 20px;
+     color: rgb(78, 73, 73);
+     border: none;
+}
+.sticky_pos{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.right_chat {
+     background-color: rgb(160, 180, 160);
+     height: 40rem;
+     position: fixed;
+     overflow-y: auto;
+     width: 50%;
+     display: flex;
+     align-items: flex-end;
+     flex-direction: column;
+}
+
+/* for tabs */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+     /* Styles for tablets */
+     .container {
+          grid-template-columns: 1fr 1fr 1fr;
+          height: 95vh;
+     }
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+
+     /* Styles for mobile devices */
+     .send_msg {
+          width: 55%;
+     }
+
+     .send_msg input {
+          font-size: 0.7rem;
+     }
+
+     .btn{
+          padding: 0.4rem;
+          border-radius: 5px;
+     }
+}
+

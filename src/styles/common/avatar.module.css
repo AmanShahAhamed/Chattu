@@ -1,0 +1,15 @@
+.circular_image {
+     border-radius: 8rem;
+     background-size: cover;
+     background-position: center;
+
+
+}
+
+.circular_image img {
+     height: 10rem;
+     border-radius: 8rem;
+     object-fit: cover;
+     margin-top: 10px;
+}
+
